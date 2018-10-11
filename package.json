@@ -1,0 +1,24 @@
+{
+  "name": "@reactive-structures/queue",
+  "version": "1.0.0",
+  "description": "Reactive Queue",
+  "scripts": {
+    "start": "nodemon",
+    "build": "./node_modules/.bin/tsc",
+    "npm-publish": "npm run build && npm publish"
+  },
+  "homepage": "https://github.com/reactive-structures/queue",
+  "author": "Zdravko Tatarski",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "10.5.7",
+    "nodemon": "1.18.3",
+    "ts-node": "7.0.0",
+    "typescript": "3.0.1"
+  },
+  "dependencies": {
+    "@reactive-redux/store": "1.0.41"
+  }
+}
